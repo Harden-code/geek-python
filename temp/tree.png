@@ -1,0 +1,26 @@
+digraph {
+	root [label=root]
+	root -> A
+	A [label=A]
+	A -> C
+	C [label=C]
+	C -> H
+	A [label=A]
+	A -> D
+	D [label=D]
+	D -> I
+	A [label=A]
+	A -> E
+	E [label=E]
+	E -> J
+	root [label=root]
+	root -> B
+	B [label=B]
+	B -> F
+	F [label=F]
+	F -> K
+	B [label=B]
+	B -> G
+	G [label=G]
+	G -> L
+}
